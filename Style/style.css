@@ -1,0 +1,57 @@
+body{
+    background-image: url(../pictures/pic1.jpg);
+    background-size: 3000px 1000px;
+    text-align: center;
+    font-size: 22px;
+    font-family: Berlin Sans FB;
+    color: rgb(175, 175, 175);
+}
+img{
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+form{
+    display: inline-block;
+    background-color: rgba(235, 235, 235, 0.041);
+    border: solid rgba(32, 32, 32, 0.319);
+    padding: 20px;
+    backdrop-filter: blur(3px);
+    border-radius: 20px;
+    text-align: left;
+}
+input, select, textarea{
+    margin-bottom: 15px;
+    font-size: 20px;
+    background-color: rgba(182, 182, 182, 0.09);
+    border: none;
+    border-radius: 8px;
+    padding: 7px;
+    color: rgb(232, 232, 232);
+    vertical-align: middle;
+    display:inline-block;
+}
+label{
+    display: inline-block;
+    width: 110px;
+    vertical-align: middle;
+}
+::placeholder{
+    color: rgba(168, 168, 168, 0.753);
+}
+.radiobtn{
+    width: auto;
+}
+.checkbox{
+    width: 15px;
+    height: 15px;
+}
+.btns{
+    width: 100px;
+}
+
+

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="Style/style.css">
+</head>
+
+<form action="index.html" method="post">
+    <img src="pictures/cropped-Artboard-1-300x300.png" alt="Logo">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required placeholder="Enter Your Name"><br>
+    <body>
+
+        <label for="pass">Password:</label>
+        <input type="password" name="pass" id="pass" placeholder="Enter Your Password"><br>
+
+        <label for="GPA">GPA:</label>
+        <input type="number" placeholder="0" max="20" min="0" id="GPA" name="GPA" step="0.25"><br>
+
+        <label for="Married" >Married:</label>
+        <input type="checkbox" name="Married" id="Married" class="checkbox"><br>
+
+        <label for="Gen">Sex:</label>
+        <label for="Gen" class="radiobtn">Man</label>
+        <input type="radio" name="Gen" id="Gen" value="Man" class="checkbox">
+        <label for="Gen" class="radiobtn">Woman</label>
+        <input type="radio" name="Gen" id="Gen" value="Woman" class="checkbox"><br>
+
+        <label for="Crft">Certificate:</label>
+        <select name="Crft" id="Crft">
+            <option>Diploma</option>
+            <option>Bachelor</option>
+            <option>Master Bachelor</option>
+            <option >PHD</option>
+        </select><br>
+
+        <label for="lan">Language:</label>
+        <select name="lan" id="lan">
+            <option>English</option>
+            <option>Español</option>
+            <option>Français</option>
+            <option>Deutsch</option>
+        </select><br>
+        
+        <label for="Descp">Description:</label>
+        <textarea name="Descp" id="Descp" cols="22px"></textarea><br>
+
+        <label for="">Choose file:</label>
+        <input type="file" accept="Image/*" name="file" id="file"><br>
+
+        <input type="submit" class="btns">
+        <input type="reset" class="btns">
+        
+
+
+
+
+    </form>
+</body>
+
+</html>
